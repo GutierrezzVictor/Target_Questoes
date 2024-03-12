@@ -19,4 +19,4 @@ imprimir(SOMA);
 
 
 Ao final do processamento, qual será o valor da variável SOMA?
-[Resposta]([http://exemplo.com/](https://github.com/GutierrezzVictor/Target_Questoes/blob/main/Questao1)https://github.com/GutierrezzVictor/Target_Questoes/blob/main/Questao1)
+[Resposta](http://exemplo.com/](https://github.com/GutierrezzVictor/Target_Questoes/blob/main/Questao1)https://github.com/GutierrezzVictor/Target_Questoes/blob/main/Questao1)
