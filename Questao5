@@ -1,0 +1,22 @@
+namespace Questao3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Digite uma string: ");
+            string inputString = Console.ReadLine();
+
+            string reversedString = InverterString(inputString);
+
+            Console.WriteLine($"String invertida: {reversedString}");
+        }
+
+        static string InverterString(string input)
+        {
+            char[] charArray = input.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
+        }
+    }
+}
