@@ -1,0 +1,19 @@
+namespace Questao1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int INDICE = 13;
+            int SOMA = 0;
+            int K = 0;
+
+            for(int i = 0; K < INDICE; i++)
+            {
+                K += 1;
+                SOMA = SOMA + K;
+            }
+            Console.WriteLine(SOMA);
+        }
+    }
+}
