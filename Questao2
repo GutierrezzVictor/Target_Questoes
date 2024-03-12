@@ -1,0 +1,46 @@
+namespace Questao2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Informe um número para verificar na sequência de Fibonacci: ");
+            int numeroInformado = int.Parse(Console.ReadLine());
+
+            if (VerificarFibonacci(numeroInformado))
+            {
+                Console.WriteLine($"{numeroInformado} pertence à sequência de Fibonacci.");
+            }
+            else
+            {
+                Console.WriteLine($"{numeroInformado} não pertence à sequência de Fibonacci.");
+            }
+        }
+
+        static bool VerificarFibonacci(int numero)
+        {
+            int primeiro = 0;
+            int segundo = 1;
+
+            
+
+            while (segundo <= numero)
+            {
+                if (segundo == numero)
+                {
+                    Console.WriteLine(); 
+                    return true;
+                }
+
+                int temp = primeiro + segundo;
+                Console.Write($", {temp}");
+
+                primeiro = segundo;
+                segundo = temp;
+            }
+
+            Console.WriteLine(); 
+            return false;
+        }
+    }
+}
