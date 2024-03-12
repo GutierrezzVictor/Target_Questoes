@@ -5,17 +5,23 @@ namespace Questao3
         static void Main(string[] args)
         {
             Console.Write("Digite uma string: ");
-            string inputString = Console.ReadLine();
+            string minhaString = Console.ReadLine();
 
-            string reversedString = InverterString(inputString);
+            string stringInvertida = InverterString(minhaString);
 
-            Console.WriteLine($"String invertida: {reversedString}");
+            Console.WriteLine($"String invertida: {stringInvertida}");
         }
 
         static string InverterString(string input)
         {
-            char[] charArray = input.ToCharArray();
-            Array.Reverse(charArray);
+            char[] charArray = new char[input.Length];
+
+            // Inverter a string manualmente
+            for (int i = 0, j = input.Length - 1; i < input.Length; i++, j--)
+            {
+                charArray[i] = input[j];
+            }
+
             return new string(charArray);
         }
     }
