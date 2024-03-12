@@ -1,6 +1,6 @@
 # Target_Questoes
 
-1)Observe o trecho de código abaixo:
+1) Observe o trecho de código abaixo:
 
 int INDICE = 13, SOMA = 0, K = 0;
 
@@ -40,7 +40,7 @@ e) 1, 1, 2, 3, 5, 8, **13**
 
 f) 2,10, 12, 16, 17, 18, 19, **20**
 
-Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+4) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
 
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
@@ -54,4 +54,5 @@ Na segunda ida:
 - Ja sabendo  de um interruptor, apenas deixo um ligado e o outro desligado 
 - Vou até outra sala e descubro os outros dois.
 
-
+5) Escreva um programa que inverta os caracteres de um string.
+[Resposta](https://github.com/GutierrezzVictor/Target_Questoes/blob/main/Questao5)
