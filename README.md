@@ -53,7 +53,9 @@ Na primeira ida:
 - Desligo o interruptor 1
 - ligo o interruptor 2
 - na mesma hora vou até uma das 3 salas
+
 Agora, há três situações possíveis:
+
 - Se a lampada estiver acessa pertence ao interruptor 2;
 - Se estiver desligada e quente pertence ao interruptor 1;
 - se estiver desligada e fria pertence ao interruptor 3.
