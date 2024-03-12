@@ -1,6 +1,6 @@
 # Target_Questoes
 
-1) Observe o trecho de código abaixo:
+1)Observe o trecho de código abaixo:
 
 int INDICE = 13, SOMA = 0, K = 0;
 
